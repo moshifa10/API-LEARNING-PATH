@@ -12,6 +12,7 @@ def view_events():
     else:
         print("Failed to fetch events. Status code:", response.status_code)
 
+
 # 2. Create event
 def create_event(title, body):
     data = {"title": title, "body": body, "userId": 1}
